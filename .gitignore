@@ -1,0 +1,61 @@
+# Build outputs and downloaded dependencies (restored by scripts/build.ps1)
+/build/
+/build-*/
+/cmake-build-*/
+/out/
+/external/
+/dist/
+
+# CMake-generated files, including accidental in-source builds
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+install_manifest.txt
+/Testing/
+/CMakeUserPresets.json
+
+# Compiled C++ and shader artifacts
+*.obj
+*.o
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.exp
+*.idb
+*.pch
+*.dxil
+
+# Local IDE state
+.vs/
+.idea/
+*.user
+*.suo
+*.VC.db
+*.VC.VC.opendb
+
+# Runtime output and personal preferences
+/captures/
+*.log
+imgui.ini
+/config/preferences.cfg
+/astra-*.bmp
+/scene-*.bmp
+/solar.bmp
+/crt.bmp
+/sun.bmp
+/signals-from-home.wav
+
+# Local environment settings and operating-system clutter
+.env
+.env.*
+!.env.example
+!.env.sample
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.tmp
+*.bak
+*~
